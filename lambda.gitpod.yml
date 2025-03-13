@@ -1,9 +1,0 @@
-image: gitpod/workspace-python:latest
-
-tasks:
-  - init: pip install -r requirements.txt  # Install dependencies
-  - command: pytest cert_exam.py  # Run tests when Gitpod starts
-
-ports:
-  - port: 3000  # Expose port 3000 (if needed for web apps)
-    onOpen: open-preview  # Open a preview when the port is available
