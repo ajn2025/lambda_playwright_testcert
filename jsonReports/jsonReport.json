@@ -1,0 +1,184 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\aj.salvacion\\OneDrive - NCS AU PTY LTD\\Documents\\PlayWright\\Github\\playwright_cert\\playwright.config.ts",
+    "rootDir": "C:/Users/aj.salvacion/OneDrive - NCS AU PTY LTD/Documents/PlayWright/Github/playwright_cert",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/aj.salvacion/OneDrive - NCS AU PTY LTD/Documents/PlayWright/Github/playwright_cert/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chrome:latest:Windows 11@lambdatest",
+        "name": "chrome:latest:Windows 11@lambdatest",
+        "testDir": "C:/Users/aj.salvacion/OneDrive - NCS AU PTY LTD/Documents/PlayWright/Github/playwright_cert",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/assignment.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/aj.salvacion/OneDrive - NCS AU PTY LTD/Documents/PlayWright/Github/playwright_cert/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/aj.salvacion/OneDrive - NCS AU PTY LTD/Documents/PlayWright/Github/playwright_cert",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/assignment.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.51.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\assignment.test.ts",
+      "file": "tests/assignment.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test Scenario 3",
+          "ok": false,
+          "tags": [
+            "lambdatest"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome:latest:Windows 11@lambdatest",
+              "projectName": "chrome:latest:Windows 11@lambdatest",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 1423,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    },
+                    {
+                      "message": "Error: read tcp 10.82.49.60:55013->10.82.49.60:54321: wsarecv: An existing connection was forcibly closed by the remote host."
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T02:29:36.298Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\aj.salvacion\\OneDrive - NCS AU PTY LTD\\Documents\\PlayWright\\Github\\playwright_cert\\test-results\\tests-assignment-Test-Scenario-3-chrome-latest-Windows-11-lambdatest\\test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            },
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 1496,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Users\\ltuser\\AppData\\Local\\ms-playwright\\ffmpeg-1010\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    },
+                    {
+                      "message": "Error: read tcp 10.82.61.231:50946->10.82.61.231:54321: wsarecv: An existing connection was forcibly closed by the remote host."
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T02:29:36.304Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\aj.salvacion\\OneDrive - NCS AU PTY LTD\\Documents\\PlayWright\\Github\\playwright_cert\\test-results\\tests-assignment-Test-Scenario-3-firefox\\test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d7c478f581c97e14d76d-62c16669b3316b0f1c5b",
+          "file": "tests/assignment.test.ts",
+          "line": 35,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-03-11T02:29:34.646Z",
+    "duration": 15605.610999999999,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
